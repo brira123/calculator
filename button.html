@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+Calculator
+</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <h1>Calculator</h1>
+    <div class="grid-container">
+<form name=tab>
+<input class="inp" type=text name=txt size=12>
+<br>
+<br>
+<input class="inp2" type=button value=" 1 " onClick=(tab.txt.value=tab.txt.value+'1')>
+<input class="inp2" type=button value=" 2 " onClick=(tab.txt.value=tab.txt.value+'2')>
+<input class="inp2" type=button value=" 3 " onClick=(tab.txt.value=tab.txt.value+'3')>
+<input class="inp2" type=button value=" 4 " onClick=(tab.txt.value=tab.txt.value+'4')>
+<br>
+<input class="inp2" type=button value=" 5 " onClick=(tab.txt.value=tab.txt.value+'5')>
+<input class="inp2" type=button value=" 6 " onClick=(tab.txt.value=tab.txt.value+'6')>
+<input class="inp2" type=button value=" 7 " onClick=(tab.txt.value=tab.txt.value+'7')>
+<input class="inp2" type=button value=" 8 " onClick=(tab.txt.value=tab.txt.value+'8')>
+<br>
+<input class="inp2" type=button value=" 9 " onClick=(tab.txt.value=tab.txt.value+'9')>
+<input class="inp2" type=button value=" 0 " onClick=(tab.txt.value=tab.txt.value+'0')>
+<input class="inp2" type=button value=" + " onClick=(tab.txt.value=tab.txt.value+'+')>
+<input class="inp2" type=button value=" - " onClick=(tab.txt.value=tab.txt.value+'-')>
+<br>
+<input class="inp2" type=button value=" / " onClick=(tab.txt.value=tab.txt.value+'/')>
+<input class="inp2" type=button value=" X " onClick=(tab.txt.value=tab.txt.value+'*')>
+<input class="inp2" type=button value=" = " onClick=(tab.txt.value=eval(tab.txt.value=tab.txt.value))>
+<input class="inp2" type=button value=" C " onClick=(tab.txt.value='')>
+</form>
+    </div>
+    </center>
+</body>
+</html>

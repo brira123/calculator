@@ -1,0 +1,36 @@
+.grid-container {
+    border: 5px solid black;
+    text-align: center;
+    padding: 40px;
+    display:inline-block;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 5px 10px #888888;
+    border-radius: 5px;
+    background-color: #1c3d3d;
+}
+.inp2 {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 26px;
+    background-color:#65a590;
+}
+.inp {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 70px;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 2px 2px #888888;
+}
+h1 {
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+    font-size: 80px;
+    color: #1c3d3d;
+}
+body {
+    background-color:#65a590;
+}
